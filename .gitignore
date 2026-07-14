@@ -1,0 +1,25 @@
+# Python caches and environments
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# IDE and OS metadata
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Temporary diagnostics and generated caches
+tmp/
+*.log
+
+# Datasets are kept locally and are not published in this repository
+data/
+
+# Model checkpoints are reproducible and unnecessarily enlarge Git history
+outputs/**/best_model.pth

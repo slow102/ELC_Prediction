@@ -1,0 +1,2 @@
+pred_len,mse_normalized_mean,mse_normalized_std,mae_normalized_mean,mae_normalized_std,mse_original_mean,mse_original_std,mae_original_mean,mae_original_std,rmse_original_mean,rmse_original_std
+365,0.5077341,0.08783031,0.53566587,0.027596034,167214.27,28925.54,307.4061,15.836739,407.44879760742185,34.637236853899054
