@@ -18,8 +18,11 @@ Thumbs.db
 tmp/
 *.log
 
-# Datasets are kept locally and are not published in this repository
-data/
+# Publish only the final model-ready dataset.
+data/raw/
+data/intermediate/
+data/final/*
+!data/final/daily_household_power_weather.csv
 
 # Model checkpoints are reproducible and unnecessarily enlarge Git history
 outputs/**/best_model.pth
